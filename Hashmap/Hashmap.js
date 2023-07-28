@@ -24,5 +24,4 @@ function encontrarChavePorValor(mapa, valorProcurado) {
     return `O nome "${valorProcurado}" não foi encontrado nos apelidos.`; // Se o valor não for encontrado, retorne null ou qualquer valor que indique que o valor não foi encontrado.
 }
 
-const valorProcurado = 'Talia';
-console.log(encontrarChavePorValor(apelidos, valorProcurado));
+console.log(encontrarChavePorValor(apelidos, 'Guilherme'));
