@@ -3,7 +3,7 @@
 *   estruturas de dados e normalmente é a primeira que estudamos.
 */
 
-var cores = ['Magenta', 'Azul', 'Ciano', 'Goiaba', 'Rosa', '-----------'];
+var cores = ['Magenta', 'Azul', 'Ciano', 'Goiaba', 'Rosa'];
 var alunos = [[1, 'Rafael'], [2, 'Thiago', 'Squad 2'], [3, 'Carlos', 'Squad 2']];
 
 //Função recursiva
