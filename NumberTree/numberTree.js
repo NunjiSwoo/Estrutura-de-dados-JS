@@ -2,7 +2,7 @@
  * ARVORE BINÁRIA
  */
 
-var alunos = {}
+var number = {}
 
 function add(lista, nome){
     if (lista.nome && lista.nome > nome) {
@@ -16,14 +16,16 @@ function add(lista, nome){
     }
 }
 
-add(alunos, 'Carlos');
-add(alunos, 'Misael');
-add(alunos, 'Gabriel');
-add(alunos, 'Luana');
-add(alunos, 'Rafael');
-add(alunos, 'Camila');
-add(alunos, 'Ana Julia');
-add(alunos, 'Matheus');
+add(number, 22);
+add(number, 3);
+add(number, 5);
+add(number, 7);
+add(number, 13);
+add(number, 26);
+add(number, 48);
+add(number, 17);
+add(number, 99);
+add(number, 125);
 
 function preOrder(lista) {
     lista.nome && console.log(lista.nome)
@@ -43,4 +45,5 @@ function posOrder(lista) {
     lista.nome && console.log(lista.nome)
 }
 
-inOrder(alunos)
+preOrder(number)
+console.log(number)
